@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej05.MainPage"
+             Title="Ejercicio 05">
+
+    <StackLayout Margin="20">
+        <Label Text="Áreas"
+               HorizontalOptions="Center"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontSize="Large">
+        </Label>
+
+        <Button x:Name="btnCuadrado"
+                Text="Área Cuadrado"
+                TextColor="White"
+                BackgroundColor="Black"
+                Clicked="btnCuadrado_Clicked">
+        </Button>
+        
+        <Button x:Name="btnRectangulo"
+                Text="Área Rectángulo"
+                TextColor="White"
+                BackgroundColor="Black"
+                Clicked="btnRectangulo_Clicked">
+        </Button>
+        <Button x:Name="btnTriangulo"
+                Text="Área Triángulo"
+                TextColor="White"
+                BackgroundColor="Black"
+                Clicked="btnTriangulo_Clicked">
+        </Button>
+        <Button x:Name="btnCirculo"
+                Text="Área Círculo"
+                TextColor="White"
+                BackgroundColor="Black"
+                Clicked="btnCirculo_Clicked">
+        </Button>
+        
+    </StackLayout>
+
+</ContentPage>
